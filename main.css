@@ -14,7 +14,7 @@ body {
 header {
 	display: block;
 	padding: 20px;
-	align: center;
+	text-align: center;
 }
 
 .tabbutton {

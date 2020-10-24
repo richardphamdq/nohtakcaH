@@ -32,6 +32,10 @@ header {
 	display: none;
 }
 
+.default {
+	display: block;
+}
+
 div {
 	margin: 0;
 	border-style: none;

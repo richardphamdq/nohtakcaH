@@ -18,6 +18,11 @@ header {
 .tabbutton {
 	padding: 15px;
 	align: center;
+	background: #A91000;
+}
+
+.tabbutton:hover {
+	background: #EB220D;
 }
 
 .tabcontent {

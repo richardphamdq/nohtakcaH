@@ -49,6 +49,10 @@ h1, h2, h3, h4 {
 	display: inline;
 }
 
+h1 {
+	padding-right: 30px;
+}
+
 img {
 	margin: 0;
 	padding: 0;

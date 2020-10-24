@@ -13,6 +13,8 @@ body {
 
 header {
 	display: block;
+	padding: 20px;
+	align: center;
 }
 
 .tabbutton {

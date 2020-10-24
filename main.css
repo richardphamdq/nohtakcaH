@@ -11,6 +11,10 @@ body {
 	background: #C0392B;
 }
 
+header {
+	display: block;
+}
+
 div {
 	margin: 0;
 	border-style: none;

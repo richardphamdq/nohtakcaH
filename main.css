@@ -15,6 +15,14 @@ header {
 	display: block;
 }
 
+.tabbutton {
+	padding: 15px;
+}
+
+.tabcontent {
+	padding: 100px;
+}
+
 div {
 	margin: 0;
 	border-style: none;
@@ -32,16 +40,6 @@ img {
 	padding: 0;
 	border: 0;
 	border-style: none;
-}
-
-div.padlr100 {
-	padding-left: 100px;
-	padding-right: 100px;
-}
-
-div.col {
-	vertical-align: top;
-	display: inline-block;
 }
 
 p {

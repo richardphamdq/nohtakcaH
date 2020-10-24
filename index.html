@@ -3,15 +3,40 @@
 	<head>
 		<title>nohtakcaH</title>
 		<link rel="stylesheet" href="main.css">
+		<script>
+			function openPage(pageName, elmnt) {
+				// Hide all elements with class = "tabcontent" by default */
+				var i, tabcontent, tabbutton;
+				tabcontent = document.getElementsByClassName("tabcontent");
+				for (i = 0; i < tabcontent.length; i++) {
+					tabcontent[i].style.display = "none";
+				}
+				// Show the specific tab content
+				document.getElementById(pageName).style.display = "block";
+				// Get the element with id = "defaultOpen" and click on it
+				document.getElementById("defaultOpen").click();
+		</script>
 	</head>
 	<body>
 		<header>
 			<h1>nohtakcaH</h1>
-			<a href = "#home">Home</a>
-			<a href = "#game">Game</a>
-			<a href = "#info">Info</a>
+			<h2>A HackTX 2020 Project</h2>
+			<h3>Fight COVID!</h3>
 		</header>
-		<h2>A HackTX 2020 Project</h2>
-		<h3>Fight COVID!</h3>
+		<button class = "tabbutton" onclick = "openPage('home', this)" id = "defaultOpen">Home</button>
+		<button class = "tabbutton" onclick = "openPage('game', this)">Game</button>
+		<button class = "tabbutton" onclick = "openPage('info', this)">Info</button>
+		<div id = "home" class = "tabcontent">
+			<h3>Home</h3>
+			<p>blshuajdsko jksdhfjcisj hdsjofjihis ijcdksjkifh</p>
+		</div>
+		<div id = "game" class = "tabcontent">
+			<h3>Game</h3>
+			<p>blshuajdsko jksdhfjcisj hdsjofjihis ijcdksjkifh</p>
+		</div>
+		<div id = "info" class = "tabcontent">
+			<h3>Info</h3>
+			<p>blshuajdsko jksdhfjcisj hdsjofjihis ijcdksjkifh</p>
+		</div>
 	</body>
 </html>

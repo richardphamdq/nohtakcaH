@@ -13,15 +13,23 @@ body {
 
 header {
 	display: block;
+	padding: 20px;
+	align: center;
 }
 
 .tabbutton {
 	padding: 15px;
 	align: center;
+	background-color: #A91000;
+}
+
+.tabbutton:hover {
+	background-color: #EB220D;
 }
 
 .tabcontent {
 	padding: 100px;
+	display: none;
 }
 
 div {
@@ -34,6 +42,7 @@ div {
 h1, h2, h3, h4 {
 	margin: 0;
 	text-align: left;
+	display: inline;
 }
 
 img {

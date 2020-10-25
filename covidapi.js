@@ -1,4 +1,4 @@
-$.getJSON("https://api.covidtracking.com/v1/us/daily.json",function getPositive(data){
+$.getJSON("https://api.covidtracking.com/v1/us/daily.json",function(data){
     let positive = data[0].positive;
     $(".positive").append(positive);
     let negative = data[0].negative;
@@ -7,4 +7,8 @@ $.getJSON("https://api.covidtracking.com/v1/us/daily.json",function getPositive(
     $(".deaths").append(deaths);
     let deathIncrease = data[0].deathIncrease;
     $(".deathIncrease").append(deathIncrease);
+    let hospitalized = data[0].hospitalized;
+    $(".hospitalized").append(hospitalized);
+    let recovered = data[0].recovered;
+    $(".recovered").append(recovered);
 });

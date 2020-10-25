@@ -30,7 +30,7 @@ header {
 
 .tabcontent {
 	padding: 100px;
-	display: block;
+	display: none;
 }
 
 .default {

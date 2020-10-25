@@ -14,13 +14,14 @@ body {
 header {
 	display: block;
 	padding: 20px;
-	text-align: center;
 }
 
 .tabbutton {
-	padding: 15px;
-	align: center;
+	width: 25%;
+	align: right;
 	background-color: #A91000;
+	border: none;
+	outline: none;
 }
 
 .tabbutton:hover {
@@ -50,7 +51,7 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-	padding-right: 30px;
+	padding-left: 30px;
 }
 
 img {
